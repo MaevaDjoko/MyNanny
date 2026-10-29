@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MyNanny" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- Shown by the system while the app starts, then replaced by Theme.MyNanny. -->
+    <style name="Theme.MyNanny.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.MyNanny</item>
+    </style>
+</resources>

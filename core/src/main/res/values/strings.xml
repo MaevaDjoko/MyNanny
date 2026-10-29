@@ -1,0 +1,5 @@
+<resources>
+    <string name="core_password_show">Afficher</string>
+    <string name="core_password_hide">Masquer</string>
+    <string name="core_loading">Chargement en cours</string>
+</resources>
